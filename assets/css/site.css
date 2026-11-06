@@ -45,4 +45,9 @@ h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15}
 .page code{font-family:var(--mono);font-size:.9em;background:var(--panel);padding:1px 5px;border-radius:3px}
 footer.site{border-top:1px solid var(--rule)}
 footer.site .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;padding-top:28px;padding-bottom:28px;font-size:15px;color:var(--dim)}
+.shot-img{display:block;width:180px;height:180px;margin:0 auto}
+/* Watch screenshots: round faces with transparent corners, so no frame. */
+figure.watch{margin:24px 0}
+figure.watch img{display:block;width:300px;max-width:100%;height:auto}
+figure.watch.small img{width:200px}
 @media (max-width:640px){.hero h1{font-size:38px}.page h1{font-size:34px}.wrap{padding-left:20px;padding-right:20px}}

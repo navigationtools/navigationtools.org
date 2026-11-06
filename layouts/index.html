@@ -9,12 +9,12 @@
 </div>
 </section>
 <section class="wrap tiles" aria-label="The tools">
-{{ range where site.RegularPages "Params.tile" true }}
+{{ range where site.RegularPages "Params.tile" true }}{{ $p := . }}
 <article class="tile">
 <p class="label">{{ .Params.platform }}</p>
 <h2><a href="{{ .RelPermalink }}" style="color:inherit;text-decoration:none">{{ .Title }}</a></h2>
 <p>{{ .Description }}</p>
-<div class="shot">[screenshot: {{ .Title }}]</div>
+{{ with .Params.image }}<img class="shot-img" src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="500" height="500" loading="lazy">{{ else }}<div class="shot">[screenshot: {{ .Title }}]</div>{{ end }}
 <p><a href="{{ .RelPermalink }}">More about {{ .Title }}</a></p>
 </article>
 {{ end }}
