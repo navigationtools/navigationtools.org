@@ -3,3 +3,5 @@ public/
 resources/_gen/
 .hugo_build.lock
 .DS_Store
+# The Linux Hugo that Cloudflare's build command downloads into the folder.
+hugo

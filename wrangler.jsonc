@@ -1,0 +1,15 @@
+// Cloudflare Workers settings for navigationtools.org.
+// Why Workers: Cloudflare now treats Pages as legacy and sets up new sites as
+// Workers with static assets. This Worker has no code: it only serves the
+// files Hugo builds into public/.
+// The build itself is set in the Cloudflare dashboard (Build command), which
+// downloads Hugo 0.169.0, the same version as on Larry's Mac, and runs it.
+{
+  "name": "navigationtools-org",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    // Unknown addresses get the site's own 404 page (layouts/404.html).
+    "not_found_handling": "404-page"
+  }
+}

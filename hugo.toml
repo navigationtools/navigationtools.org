@@ -1,5 +1,5 @@
 # navigationtools.org - Hugo site configuration.
-# Built by Cloudflare Pages on every push to main (see README.md).
+# Built and published by Cloudflare (Workers) on every push to main (see README.md).
 baseURL = "https://navigationtools.org/"
 disableKinds = ["taxonomy", "term"]
 title = "Navigation Tools"
