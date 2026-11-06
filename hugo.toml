@@ -1,0 +1,33 @@
+# navigationtools.org - Hugo site configuration.
+# Built by Cloudflare Pages on every push to main (see README.md).
+baseURL = "https://navigationtools.org/"
+disableKinds = ["taxonomy", "term"]
+title = "Navigation Tools"
+# No outside theme: the layouts are in layouts/, the look in assets/css/site.css.
+enableRobotsTXT = true
+
+[params]
+  description = "Navigation that works offline, on the iPad and on the wrist."
+  support = "support@navigationtools.org"
+  bashnav = "https://bashnav.navigationtools.org/"
+  # Connect IQ store page for WeatherGlass: fill in once the listing is live.
+  weatherglass_store = ""
+
+# The menu, in order. Its entries match the pages Larry chose (plan, phase 6).
+[menus]
+  [[menus.main]]
+    name = "bashnav"
+    pageRef = "/bashnav"
+    weight = 10
+  [[menus.main]]
+    name = "WeatherGlass"
+    pageRef = "/weatherglass"
+    weight = 20
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 30
+  [[menus.main]]
+    name = "Support"
+    pageRef = "/support"
+    weight = 40

@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="wrap page">
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ if .Pages }}<div class="posts" style="margin-top:32px">{{ range .Pages }}
+<a class="post" href="{{ .RelPermalink }}"><span class="meta">{{ .Date.Format "2 January 2006" }}{{ with .Params.kind }} · {{ . }}{{ end }}</span><span class="t">{{ .Title }}</span></a>
+{{ end }}</div>{{ else }}<p style="color:var(--dim)">The first posts are on their way.</p>{{ end }}
+</section>
+{{ end }}

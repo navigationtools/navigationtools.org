@@ -1,0 +1,48 @@
+/* navigationtools.org - look D, "Almanac and instruments" (Larry's choice,
+   plan phase 6). Navy ground and serif headings from bashnav's site; amber
+   accents and mono readouts from the WeatherGlass face. Change a colour here
+   and every page follows. */
+:root{
+  --ink:#0b1a22; --panel:#102530; --rule:#1d3a49;
+  --text:#e7dcc6; --dim:#a9bac4;
+  --amber:#e3b862; --green:#5cbf94;
+  --serif:'Spectral',Georgia,'Times New Roman',serif;
+  --sans:'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  --mono:'IBM Plex Mono','SFMono-Regular',Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:var(--text);font-family:var(--sans);font-size:17px;line-height:1.6}
+a{color:var(--amber)} a:hover{color:var(--text)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+header.site{border-bottom:1px solid var(--rule)}
+header.site .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:20px;padding-bottom:20px}
+.brand{font-family:var(--serif);font-size:24px;font-weight:600;color:var(--text);text-decoration:none}
+nav.main{display:flex;flex-wrap:wrap;gap:8px 24px;font-family:var(--mono);font-size:14px;letter-spacing:.04em}
+nav.main a{color:var(--text);text-decoration:none} nav.main a:hover,nav.main a[aria-current]{color:var(--amber)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15}
+.label{margin:0 0 12px;font-family:var(--mono);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
+.hero{padding-top:88px;padding-bottom:64px} .hero h1{margin:0;max-width:820px;font-size:56px;line-height:1.1}
+.lede{margin:24px 0 0;max-width:680px;font-size:19px;color:var(--dim)}
+.buttons{margin-top:36px;display:flex;flex-wrap:wrap;gap:16px}
+.btn{display:inline-block;padding:14px 24px;border-radius:4px;font-weight:500;text-decoration:none;background:var(--amber);color:var(--ink)}
+.btn:hover{color:var(--ink);filter:brightness(1.08)}
+.btn.line{background:none;border:1px solid var(--rule);color:var(--text);padding:13px 23px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;padding-bottom:72px}
+.tile{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:32px}
+.tile h2{margin:8px 0 12px;font-size:32px} .tile p{color:var(--dim)}
+.tile .label{text-transform:none;letter-spacing:0}
+.shot{height:180px;border:1px dashed var(--rule);border-radius:4px;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:13px;color:var(--dim)}
+.band{border-top:1px solid var(--rule);padding:56px 0 64px}
+.posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.post{display:block;text-decoration:none;color:var(--text);border-top:2px solid var(--amber);padding-top:16px}
+.post .meta{display:block;font-family:var(--mono);font-size:13px;color:var(--dim)}
+.post .t{display:block;margin-top:6px;font-size:19px;font-weight:500}
+.page{padding-top:64px;padding-bottom:80px}
+.page > *{max-width:760px}
+.page h1{font-size:44px;margin:0 0 16px}
+.page h2{font-size:28px;margin:40px 0 12px}
+.page code{font-family:var(--mono);font-size:.9em;background:var(--panel);padding:1px 5px;border-radius:3px}
+footer.site{border-top:1px solid var(--rule)}
+footer.site .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;padding-top:28px;padding-bottom:28px;font-size:15px;color:var(--dim)}
+@media (max-width:640px){.hero h1{font-size:38px}.page h1{font-size:34px}.wrap{padding-left:20px;padding-right:20px}}

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="wrap hero">
+<p class="label">Tools for the watch on deck</p>
+<h1>{{ .Title }}</h1>
+<p class="lede">{{ .Params.lede }}</p>
+<div class="buttons">
+<a class="btn" href="{{ site.Params.bashnav }}">Open bashnav</a>
+<a class="btn line" href="{{ "/weatherglass/" | relURL }}">Get WeatherGlass</a>
+</div>
+</section>
+<section class="wrap tiles" aria-label="The tools">
+{{ range where site.RegularPages "Params.tile" true }}
+<article class="tile">
+<p class="label">{{ .Params.platform }}</p>
+<h2><a href="{{ .RelPermalink }}" style="color:inherit;text-decoration:none">{{ .Title }}</a></h2>
+<p>{{ .Description }}</p>
+<div class="shot">[screenshot: {{ .Title }}]</div>
+<p><a href="{{ .RelPermalink }}">More about {{ .Title }}</a></p>
+</article>
+{{ end }}
+</section>
+<section class="band" aria-label="From the blog"><div class="wrap">
+<h2 style="margin:0 0 24px;font-size:28px">From the blog</h2>
+{{ $posts := where site.RegularPages "Section" "blog" }}
+{{ if $posts }}<div class="posts">{{ range first 3 $posts }}
+<a class="post" href="{{ .RelPermalink }}"><span class="meta">{{ .Date.Format "2 January 2006" }}{{ with .Params.kind }} · {{ . }}{{ end }}</span><span class="t">{{ .Title }}</span></a>
+{{ end }}</div>{{ else }}<p style="color:var(--dim)">The first posts are on their way.</p>{{ end }}
+</div></section>
+{{ end }}

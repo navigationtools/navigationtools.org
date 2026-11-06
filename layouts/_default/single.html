@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="wrap page">
+{{ with .Params.platform }}<p class="label">{{ . }}</p>{{ end }}
+<h1>{{ .Title }}</h1>
+{{ if eq .Section "blog" }}<p class="label">{{ .Date.Format "2 January 2006" }}{{ with .Params.kind }} · {{ . }}{{ end }}</p>{{ end }}
+{{ .Content }}
+</article>
+{{ end }}

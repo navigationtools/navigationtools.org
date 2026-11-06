@@ -1,0 +1,5 @@
+# Hugo's build output and caches: made fresh on every build, never committed.
+public/
+resources/_gen/
+.hugo_build.lock
+.DS_Store
