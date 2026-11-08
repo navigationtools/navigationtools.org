@@ -11,7 +11,7 @@ enableRobotsTXT = true
   support = "support@navigationtools.org"
   bashnav = "https://bashnav.navigationtools.org/"
   # Connect IQ store page for WeatherGlass: fill in once the listing is live.
-  weatherglass_store = ""
+  weatherglass_store = "https://apps.garmin.com/en-US/apps/247dedb7-9de8-463f-ab73-33eee20b7695"
 
 # The menu, in order. Its entries match the pages Larry chose (plan, phase 6).
 [menus]

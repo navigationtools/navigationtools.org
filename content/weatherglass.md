@@ -47,6 +47,6 @@ Tested on both screen types: AMOLED (quatix 7 Pro) and memory-in-pixel (fēnix 7
 
 ## Get it
 
-WeatherGlass is free on the Garmin Connect IQ store: [Connect IQ store link]. It sends no data anywhere and needs no network.
+WeatherGlass is free on the [Garmin Connect IQ store](https://apps.garmin.com/en-US/apps/247dedb7-9de8-463f-ab73-33eee20b7695). It sends no data anywhere and needs no network.
 
 Designed by Larry Sherman with the Clipper Race Level 1 training crew.
