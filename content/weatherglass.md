@@ -12,6 +12,21 @@ image_alt: "The WeatherGlass watch face: pressure trace, forecast RAIN AT TIMES,
 
 WeatherGlass is a watch face for sailors. The barometer and a forecast sit at the top of the dial; wind, sun, moon and tides are marks around the edge. Everything is worked out on the watch, so it works offshore with no phone and no signal.
 
+## Coming soon: version 1.20.2
+
+Version 1.20.2 is with Garmin for approval, and will reach the Connect IQ store shortly. It brings three things.
+
+1. **A sun and moon compass.** A cream pointer hand points at the sun, or at the moon at night. Turn your wrist until it points at the sun, and the 12 triangle is true north, with E, S and W beside the 3, 6 and 9. Small ☉ and ☽ symbols mark where the sun and moon rise and set. It is worked out exactly from the time and your position.
+2. **The face follows the boat.** With the port set to Auto, the face shows your position to the minute, works out the sun and moon for where you are, and takes its tides from the nearest port.
+3. **A quieter dial edge.** Steps and battery as thin arcs on the rim, fine hour marks, and larger sun and moon marks. Each change has a setting.
+
+{{< figure src="/images/weatherglass/compass.png" alt="The sun and moon compass on WeatherGlass: the pointer hand on the sun, the 12 triangle at true north, W, S and E beside the 9, 6 and 3, and the sunrise, sunset and moon bearings on the rim" class="wide" >}}
+
+**To print and read before you sail:**
+
+1. [User's guide, version 1.20.2](/docs/weatherglass/WeatherGlass_User_Guide_v1.20.2.pdf) (PDF, 11 pages)
+2. [Quick reference card, version 1.20.2](/docs/weatherglass/WeatherGlass_Quick_Reference_v1.20.2.pdf) (PDF, one page)
+
 ## The barometer
 
 1. **A 3-hour pressure trace** above today's sea-level pressure.

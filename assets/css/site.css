@@ -53,4 +53,7 @@ figure.app img{display:block;width:100%;max-width:430px;height:auto;border-radiu
 figure.watch{margin:24px 0}
 figure.watch img{display:block;width:300px;max-width:100%;height:auto}
 figure.watch.small img{width:200px}
+/* A wide figure, such as an annotated diagram of the face */
+figure.wide{margin:24px 0}
+figure.wide img{display:block;width:100%;max-width:760px;height:auto}
 @media (max-width:640px){.hero h1{font-size:38px}.page h1{font-size:34px}.wrap{padding-left:20px;padding-right:20px}}
