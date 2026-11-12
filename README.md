@@ -27,3 +27,8 @@ It starts as a draft (`draft: true`), shown by `hugo server -D` but not publishe
 ## Not on this site
 
 clipper-drill (private until Clipper approves) and WG Log (unlisted).
+
+## How the site is developed and run
+
+`docs/WORKFLOW.md` (and its PDF): two diagrams, one for how a change reaches the site and one for how the live services fit together, and what to do when a build fails or a bad page goes live. The diagrams are drawn by `docs/draw.py`; change the script and run it again rather than editing the SVGs by hand.
+
