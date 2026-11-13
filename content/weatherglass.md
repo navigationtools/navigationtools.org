@@ -5,16 +5,16 @@ weight: 20
 platform: "Garmin watches · Connect IQ"
 description: "A watch face that keeps the ship's barometer on your wrist: the pressure trace, a forecast, the sea state, wind, sun, moon and tides, on one dial."
 image: "/images/weatherglass/main.png"
-image_alt: "The WeatherGlass watch face: pressure trace, forecast RAIN AT TIMES, UNSETTLED: D5, with wind, sun, moon and tide marks round the edge"
+image_alt: "The WeatherGlass watch face: the pressure trace at 1012, forecast RAIN AT TIMES, UNSETTLED: D5, the sun and moon compass hand, and wind, sun, moon and tide marks round the edge"
 ---
 
-{{< figure src="/images/weatherglass/main.png" alt="The WeatherGlass watch face: pressure trace, forecast RAIN AT TIMES, UNSETTLED: D5, with wind, sun, moon and tide marks round the edge" class="watch" >}}
+{{< figure src="/images/weatherglass/main.png" alt="The WeatherGlass watch face: the pressure trace at 1012, forecast RAIN AT TIMES, UNSETTLED: D5, the sun and moon compass hand, and wind, sun, moon and tide marks round the edge" class="watch" >}}
 
 WeatherGlass is a watch face for sailors. The barometer and a forecast sit at the top of the dial; wind, sun, moon and tides are marks around the edge. Everything is worked out on the watch, so it works offshore with no phone and no signal.
 
-## Coming soon: version 1.20.2
+## New in version 1.20.2
 
-Version 1.20.2 is with Garmin for approval, and will reach the Connect IQ store shortly. It brings three things.
+Version 1.20.2 is out now on the Connect IQ store. It brings three things.
 
 1. **A sun and moon compass.** A cream pointer hand points at the sun, or at the moon at night. Turn your wrist until it points at the sun, and the 12 triangle is true north, with E, S and W beside the 3, 6 and 9. Small ☉ and ☽ symbols mark where the sun and moon rise and set. It is worked out exactly from the time and your position.
 2. **The face follows the boat.** With the port set to Auto, the face shows your position to the minute, works out the sun and moon for where you are, and takes its tides from the nearest port.
@@ -54,7 +54,7 @@ Version 1.20.2 is with Garmin for approval, and will reach the Connect IQ store 
 3. **Colours that read at night,** or **Rig for red** to keep your night vision.
 4. **Two crew touches,** both optional: a pint at your chosen time, with your beer's name, and a V sign once a day.
 
-{{< figure src="/images/weatherglass/pint.png" alt="The pint reminder on the WeatherGlass face" class="watch small" >}}
+{{< figure src="/images/weatherglass/pint.png" alt="The pub reminder on the WeatherGlass face: a pint and the name of your beer" class="watch small" >}}
 
 ## Watches
 
