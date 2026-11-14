@@ -7,7 +7,7 @@
 ![Developing navigationtools.org](develop.svg)
 
 1. **Every change starts as a note.** A shipmate that releases something sends a web note; the Navigation Tools session is the only one that edits the site, so the site never has two authors pulling different ways.
-2. **Nothing reaches the site except through the queue.** That is why step 4 is Larry's: the queue checks every path and every PDF pair before committing, so what is served is always what was committed and checked.
+2. **Nothing reaches the site except through the queue.** That is why step 4 is Larry's: the queue checks every path and every PDF pair, and builds the whole site with `tests/gate.sh`, before committing, so what is served is always what was committed and checked.
 3. **Cloudflare builds from git, not from a laptop.** The build downloads the same Hugo version as on Larry's Mac (0.169.0), so the site looks the same in both places.
 4. **The `public/` folder is built, never edited.** Cloudflare makes it fresh on every push.
 

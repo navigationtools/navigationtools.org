@@ -18,6 +18,10 @@ The website for Navigation Tools, built with [Hugo](https://gohugo.io/) and publ
 
 Then open <http://localhost:1313/>. The page reloads as you save files. Press Ctrl-C to stop.
 
+## The check before every commit
+
+`tests/gate.sh` builds the whole site with Hugo into a scratch folder and checks that the home page and the sitemap are there. The queue runs it before committing anything to this repository, and refuses the request if it fails, so a page that does not build never reaches Cloudflare (Larry's decision, 14 November 2026, gap analysis fix 5). It needs Hugo on the Mac (`brew install hugo`), at Cloudflare's version, 0.169.0; it never touches the working tree.
+
 ## A new blog post
 
     hugo new content blog/my-post.md

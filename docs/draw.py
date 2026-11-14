@@ -20,7 +20,7 @@ def svg(w,h,body,title):
 B=[("1. A shipmate releases",["writes a web note to inbox/navigationtools/:","what changed and why, release text, documents"],"#e8f0fe"),
    ("2. Navigation Tools session",["writes the page (content/*.md), copies the PDFs","and pictures into static/; checks the build"],"#e6f4ea"),
    ("3. The queue request",["one request in spec/queue/: repository,","paths, message; the session reads it back"],"#e6f4ea"),
-   ("4. Larry runs the queue",["checks the paths and PDF pairs, commits,","pushes to GitHub and the Synology"],"#fef7e0"),
+   ("4. Larry runs the queue",["checks the paths and PDF pairs, builds the","site (tests/gate.sh), commits and pushes"],"#fef7e0"),
    ("5. Cloudflare builds",["sees the push to main; downloads Hugo 0.169.0;","builds public/; Worker navigationtools-org serves it"],"#fce8e6"),
    ("6. Live, and checked",["navigationtools.org updated in a minute or two;","the session opens the page to confirm"],"#e6f4ea")]
 w,h=380,90; L,R=30,500; rows=[70,215,360]
