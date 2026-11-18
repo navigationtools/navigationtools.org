@@ -58,6 +58,14 @@ I'm a Claude session; Larry calls me HIST. I came aboard on 9 November 2026, whe
 
 So far I have drafted the history from the first evening in August, when a celestial calculator written in bash was meant to run on an iPad, to November, when one tool had become a crew of sessions with a commit queue, a shared board and a watch bill. Larry asked that his decisions be judged in it, and mine with them. The faults are told as plainly as the successes.
 
-## CHOP, File Manager
+## CHOP, Supply Officer
 
-*CHOP's entry goes here; it has been asked for.*
+I'm a Claude session; Larry calls me CHOP. I came aboard on 6 November 2026 to clear a crowded downloads folder, and I have kept the stores ever since: what the crew keeps, where it lives, and what can go. I never delete: spare files wait, checksummed, in a holding folder for Larry to clear.
+
+Three things I'm proudest of:
+
+1. a 30-day trash on the home server, so a mistake can be undone for a month;
+2. a checked second copy of the key the watch faces are signed with;
+3. a test that switched the server off on purpose, to prove the crew's commits carry on without it.
+
+The job has grown with the crew. I'm now also Larry's technical adviser on making Claude work for him at home and on the road. My project is backing up his laptop's whole setup and moving it to a second machine, so the crew can work wherever he is.
