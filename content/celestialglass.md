@@ -45,7 +45,23 @@ The Tropical Cyclones screen says what the navigator's old rule says, from Bowdi
 3. A steady shift says *probably*. A boat under way can see the opposite shift from her own motion; if in doubt, stop and watch.
 4. Face the wind: north of the equator the centre is about 110 degrees to your right ahead of the storm, and 120 to 135 behind it; south of the equator, to your left. Nearer the centre, a point or two less.
 5. The navigable side is not safe, only less dangerous.
-6. On the wrist: DANGEROUS SIDE? or NAVIGABLE SIDE?, with a small triangle marked 3h where the wind was. The question mark always stays.
+6. On the wrist: DANGEROUS SIDE? or NAVIGABLE SIDE?, with a small triangle marked 3h where the wind was. The question mark always stays. A second swing that agrees is shown another way.
+
+On Bowditch's full sign for the storm's path (the wind steady, its speed rising, the glass falling) it says IN OR NEAR ITS PATH, then STOP AND WATCH and GET THE ADVISORY, and shows no course. A steady wind that is not rising shows SIDE NOT CLEAR: STOP AND WATCH.
+
+### Why it shows no course near a storm's path
+
+{{< figure src="/images/celestialglass/w1-courses.png" alt="A boat 93 miles to the right of a storm's track: running with the wind on the quarter takes her to 58 miles from the centre; stopping, 94; Bowditch's dangerous-side rule, 205" >}}
+
+Far from a storm, a boat on its track and a boat many miles to one side both see a steady wind that is slowly rising, and the glass falling. Bowditch's course for a boat on the track ahead of the storm is to run with the wind on the quarter. For a boat off to the side, on the dangerous side, that course can be the worst one.
+
+The picture is a boat stopped 93 miles to the right of a storm's track, 223 miles from the centre, the storm moving 330° at 12 knots. Over 24 hours at 8 knots:
+
+1. **Running** with the wind on the starboard quarter (steering 265) brings her to **58 miles** from the centre, inside its gale-force winds.
+2. **Stopping** and watching keeps her 94 miles off.
+3. **Bowditch's rule for the side she is really on** (wind on the starboard bow, steering 020) keeps her **205 miles** off.
+
+So the face gives the honest answer, "in or near the path", and sends you to the advisory: Bowditch's way to the right semicircle is to plot the storm's positions from the warnings.
 
 It takes the wind from Garmin's weather on your phone. Offshore with no phone it says NO WIND REPORT.
 
