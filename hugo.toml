@@ -20,8 +20,8 @@ enableRobotsTXT = true
     pageRef = "/bashnav"
     weight = 10
   [[menus.main]]
-    name = "WeatherGlass"
-    pageRef = "/weatherglass"
+    name = "GlassWorks"
+    pageRef = "/watch-faces"
     weight = 20
   [[menus.main]]
     name = "Blog"
