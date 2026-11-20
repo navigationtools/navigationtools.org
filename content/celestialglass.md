@@ -74,3 +74,5 @@ CelestialGlass tells you where to look and when. It is not for working a positio
 CelestialGlass is free on the Garmin Connect IQ store: **[the store link, once it is listed]**. It sends no data anywhere and needs no network.
 
 Designed by Larry Sherman with the Clipper Race Training shipmates.
+
+<small>GlassWorks is independent and not affiliated with or endorsed by Garmin. Garmin, quatix, fēnix, epix, MARQ and Connect IQ are trademarks of Garmin Ltd.</small>
