@@ -29,7 +29,7 @@ Press and hold the screen for about a second to step from one to the next.
 {{< figure src="/images/celestialglass/sight.png" alt="Sight mode: the fix stars named large at their bearings, and the time in Zulu" class="watch small" >}}
 
 1. **Sight:** for the ten minutes that matter. The fix stars in large type at their bearings, and the time in Zulu for the sight book. Everything else is gone.
-{{< figure src="/images/celestialglass/cyclones.png" alt="Tropical Cyclones mode: the storm's centre bearing 245, DANGEROUS SIDE?, and the course the rule gives" class="watch small" >}}
+{{< figure src="/images/celestialglass/cyclones.png" alt="Tropical Cyclones mode: the storm's centre bearing, Bowditch's band in deep red with the margin either side, DANGEROUS SIDE?" class="watch small" >}}
 
 2. **Tropical Cyclones:** Buys Ballot's law as a picture. From the wind and the barometer, where a storm's centre lies, which side of it you are on, and what the old rule says to do. *A teaching aid, not for use at sea.*
 {{< figure src="/images/celestialglass/tide.png" alt="Tide mode: a ring of water with now at the top, high water at 18:31 and low water at 00:43" class="watch small" >}}
