@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "CelestialGlass"
 tile: true
 weight: 22
@@ -71,7 +71,7 @@ CelestialGlass tells you where to look and when. It is not for working a positio
 
 ## Get it
 
-CelestialGlass is free on the Garmin Connect IQ store: **[the store link, once it is listed]**. It sends no data anywhere and needs no network.
+CelestialGlass is free on the Garmin Connect IQ store: [CelestialGlass on the Connect IQ store](https://apps.garmin.com/apps/347af53d-4b9e-4d60-89eb-30956d62c461). It sends no data anywhere and needs no network.
 
 Designed by Larry Sherman with the Clipper Race Training shipmates.
 
