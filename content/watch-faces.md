@@ -1,5 +1,6 @@
 ---
 draft: true
+url: "/glassworks/"
 title: "GlassWorks watch faces"
 weight: 15
 description: "Watch faces for sailors and navigators, for Garmin's larger round watches. Free, with no advertisements and no account, and nothing sent anywhere from your watch."
@@ -22,3 +23,5 @@ The pressure and its trend, a forecast worked out from them, the sea state, the 
 The picture a navigator carries in their head: which stars to shoot at twilight and where they will be, the sky as a clock, and the weather, a storm's side and the tide one press away. [More about CelestialGlass](/celestialglass/)
 
 Both faces are by Larry Sherman, with the Clipper Race training shipmates.
+
+<small>GlassWorks is independent and not affiliated with or endorsed by Garmin. Garmin, quatix, fēnix, epix, MARQ and Connect IQ are trademarks of Garmin Ltd.</small>
