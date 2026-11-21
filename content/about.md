@@ -8,7 +8,7 @@ draft: true
 
 Navigation Tools is built by one sailor and a crew of AI sessions. Larry sets the course and makes every decision. Each of the crew below is a Claude session, an AI made by Anthropic, with its own billet: they write and test the code, the lessons and the documentation, and Larry checks the work before it goes out.
 
-## Larry, Commanding Officer
+## Larry
 
 *Larry's entry goes here, with a link to his full bio. HIST is writing the bio from QMOW's sources; Larry checks it before it is published.*
 
